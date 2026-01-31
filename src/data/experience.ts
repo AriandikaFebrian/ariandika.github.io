@@ -8,7 +8,7 @@ export const experienceData = [
     position: 'Mobile Developer',
     company: 'Client Project – Education System',
     location: 'Jakarta, Indonesia',
-    startDate: 'Feb 2026',
+    startDate: 'Jan 2026',
     endDate: 'Present',
     duration: 'Ongoing',
     description: `Developed a mobile activity management app for an educational institution serving 500+ users including teachers, parents, and students (ranging from early childhood education to elementary school levels).

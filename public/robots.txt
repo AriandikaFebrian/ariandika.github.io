@@ -1,0 +1,15 @@
+# robots.txt for Ari Andika Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ariandika-portfolio.vercel.app/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 10
+
+# Disallow admin/private pages (if any)
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+

@@ -1,0 +1,70 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Custom Properties for Color Scheme */
+:root {
+  /* Primary Colors */
+  --color-maroon: #8B0000;
+  --color-mustard: #FFC857;
+  --color-green: #2E8B57;
+
+  /* Gradients */
+  --gradient-maroon-mustard: linear-gradient(135deg, #8B0000 0%, #FFC857 100%);
+  --gradient-green-maroon: linear-gradient(135deg, #2E8B57 0%, #8B0000 100%);
+}
+
+body {
+  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Smooth scrolling for anchor links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Selection color */
+::selection {
+  background-color: #6366f1;
+  color: white;
+}
+

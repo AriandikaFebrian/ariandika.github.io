@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   
-  // ✅ Base untuk project pages (subdirectory)
-  base: '/ariandika.github.io/',
+  // ✅ Base untuk user/organization GitHub Pages (root domain)
+  base: '/',
 
   build: {
     outDir: 'dist',

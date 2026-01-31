@@ -20,9 +20,9 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: 'PPDB Daily Activity System',
+    title: 'PPDB Daily Activity System - Demo',
     description:
-      'A comprehensive mobile application for managing and tracking daily student activities in schools. Features role-based access control with 4 user types (headmaster, admin, teacher, parent), activity management with approval workflow, photo uploads, threaded comments, and push notifications. Built with React Native (Expo) and Node.js/Express backend.',
+      'Internal demo build for PPDB (Student Registration) and Daily Activity tracking system. A comprehensive mobile application for managing and tracking daily student activities in schools. Features role-based access control with 4 user types (headmaster, admin, teacher, parent), activity management with approval workflow, photo uploads, threaded comments, and push notifications. Built with React Native (Expo) and Node.js/Express backend. Delivered for client testing.',
     image: './Mobile.jpeg',
     techStack: [
       'React Native',
@@ -43,10 +43,10 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: 'BugNest - Issue Tracking & Source Code Platform',
+    title: 'BugNest - Issue Tracking & Source Code Platform - Ongoing',
     description:
       'A comprehensive issue tracking and source code visualization platform for development teams. Features include issue tracking with priority levels, Kanban-style boards, source code upload and viewing, team collaboration, and administrative oversight. Built with ASP.NET Core 8, React 19, and PostgreSQL.',
-    image: '/Bugnest.png',
+    image: './Bugnest.png',
     techStack: [
       'ASP.NET Core 8',
       'C# 12',
@@ -69,7 +69,7 @@ export const projectsData: Project[] = [
     title: 'Helpdesk Mobile Web Dashboard & Backend',
     description:
       'A comprehensive helpdesk ticketing system that integrates with OTRS to synchronize ticket data, analyze helpdesk performance, and provide business intelligence through Power BI dashboards. Built with ASP.NET Core 8 Clean Architecture, PostgreSQL, Redis caching, and Quartz background jobs.',
-    image: '/PowerBI.png',
+    image: './PowerBI.png',
     techStack: [
       'ASP.NET Core 8',
       'C# 12',
@@ -85,7 +85,7 @@ export const projectsData: Project[] = [
       'OTRS Integration',
     ],
     category: 'FullStack',
-    documentation: '/Helpdesk-Mobile-Web-Documentation.pdf',
+    documentation: './Helpdesk-Mobile-Web-Documentation.pdf',
     featured: true,
   },
   {
@@ -131,10 +131,10 @@ export const projectsData: Project[] = [
   },
   {
     id: 6,
-    title: 'DicTech Interactive - Corporate Website',
+    title: 'DicTech Interactive - Corporate Website - Ongoing',
     description:
       'A modern, responsive corporate website built for a web-based startup delivering innovative digital solutions. Features include animated hero carousel with multiple slides, services showcase grid, project portfolio with case studies, multi-language support (English & Indonesian), integrated contact form with spam protection and reCAPTCHA, animated statistics counters, and SEO-friendly architecture. Built with Next.js 15, React 19, Tailwind CSS 4, and Framer Motion.',
-    image: '/Dictech.png',
+    image: './Dictech.png',
     techStack: [
       'Next.js 15',
       'React 19',

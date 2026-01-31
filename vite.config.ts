@@ -4,7 +4,13 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  
+  // ✅ Base untuk project pages (subdirectory)
+  base: '/ariandika.github.io/',
+
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
     rollupOptions: {
       output: {
         manualChunks(id) {
@@ -39,4 +45,3 @@ export default defineConfig({
     include: ['react', 'react-dom', '@mui/material', '@emotion/react', '@emotion/styled'],
   },
 })
-

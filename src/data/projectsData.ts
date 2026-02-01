@@ -22,7 +22,7 @@ export const projectsData: Project[] = [
     id: 1,
     title: 'PPDB Daily Activity System - Demo',
     description:
-      'Internal demo build for PPDB (Student Registration) and Daily Activity tracking system. A comprehensive mobile application for managing and tracking daily student activities in schools. Features role-based access control with 4 user types (headmaster, admin, teacher, parent), activity management with approval workflow, photo uploads, threaded comments, and push notifications. Built with React Native (Expo) and Node.js/Express backend. Delivered for client testing.',
+      'Internal demo build for PPDB (Student Registration) and Daily Activity tracking system. A comprehensive mobile application for managing and tracking daily student activities in schools. Features role-based access control with 5 user types (headmaster, admin, teacher, parent, student), activity management with approval workflow, photo uploads, threaded comments, and push notifications. Built with React Native (Expo) and Node.js/Express backend. Delivered for client testing; production rollout planned mid-2026 (targeting ~500 users based on school data).',
     image: './Mobile.jpeg',
     techStack: [
       'React Native',

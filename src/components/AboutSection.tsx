@@ -150,7 +150,7 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-                  Fullstack Mobile Developer specializing in React Native and backend integration. Experienced in building scalable mobile applications and enterprise systems through real-world client projects and internships. Skilled in API integration, JWT authentication, database optimization, and CI/CD deployment using Azure DevOps.
+                  Fullstack & Mobile Developer specializing in React Native (Expo) and .NET/React integrations. Experienced in API integration, JWT + RBAC authentication, real-time FCM notifications, PostgreSQL, Power BI visualization, and Azure DevOps CI/CD.
                 </Typography>
                 <Typography
                   variant="body1"
@@ -161,7 +161,9 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-                  Focused on delivering maintainable, production-ready applications with strong performance and clean architecture. Developed an education management mobile app serving 500+ users and contributed to enterprise dashboard systems at PT United Tractors Tbk.
+                  Highlights:
+                  - Interned at PT United Tractors Tbk: Built end-to-end OTRS ticket monitoring system with real-time data automation and Power BI dashboards.
+                  - Developing React Native education management app for PAUD-SD client: Delivered internal demo APK; production planned mid-2026 (targeting ~500 users based on client estimate).
                 </Typography>
                 <Typography
                   variant="body1"
@@ -171,7 +173,8 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-Passionate about continuous learning, writing clean code, and creating impactful user experiences through thoughtful design and efficient development practices.
+                  Passionate about clean code, performance, and delivering impactful internal tools. Open to junior roles in startups or corporates.
+                  "Dream it. Do it."
                 </Typography>
               </motion.div>
             </Box>

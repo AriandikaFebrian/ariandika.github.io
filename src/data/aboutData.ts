@@ -18,35 +18,29 @@ Passionate about continuous learning, writing clean code, and creating impactful
 // Skills categorized by type
 export const skillsData = {
   Frontend: [
-    { name: 'React Native', level: 95, color: '#61dafb' },
-    { name: 'React.js', level: 90, color: '#61dafb' },
-    { name: 'Expo', level: 90, color: '#000000' },
+    { name: 'React Native (Expo & EAS Builds)', level: 95, color: '#61dafb' },
+    { name: 'React.js (Vite)', level: 90, color: '#61dafb' },
     { name: 'TypeScript', level: 85, color: '#3178c6' },
     { name: 'Next.js', level: 80, color: '#000000' },
-    { name: 'MUI', level: 85, color: '#007fff' },
   ],
   Backend: [
+    { name: '.NET (CQRS & DDD)', level: 75, color: '#512bd4' },
     { name: 'Node.js', level: 80, color: '#68a063' },
-    { name: '.NET', level: 75, color: '#512bd4' },
-    { name: 'REST API', level: 90, color: '#ff6b6b' },
-    { name: 'JWT Auth', level: 85, color: '#ff6b6b' },
-    { name: 'RBAC', level: 80, color: '#ff6b6b' },
   ],
   Database: [
     { name: 'PostgreSQL', level: 85, color: '#336791' },
-    { name: 'SQL Server', level: 80, color: '#cc2927' },
-    { name: 'MySQL', level: 75, color: '#00758f' },
   ],
   DevOps: [
     { name: 'Azure DevOps', level: 75, color: '#0078d4' },
     { name: 'Git', level: 90, color: '#f1502f' },
     { name: 'CI/CD', level: 80, color: '#0078d4' },
-    { name: 'Expo Build', level: 85, color: '#000000' },
-    { name: 'Postman', level: 90, color: '#ff6c37' },
   ],
   Tools: [
-    { name: 'FCM', level: 85, color: '#ffb300' },
+    { name: 'Firebase Cloud Messaging (FCM)', level: 85, color: '#ffb300' },
+    { name: 'JWT + RBAC', level: 85, color: '#ff6b6b' },
     { name: 'Power BI', level: 70, color: '#f2cc1c' },
+    { name: 'API Integration', level: 90, color: '#ff6b6b' },
+    { name: 'TanStack Query', level: 85, color: '#ff6b6b' },
   ],
 };
 

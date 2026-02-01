@@ -11,12 +11,12 @@ export const experienceData = [
     startDate: 'Jan 2026',
     endDate: 'Present',
     duration: 'Ongoing',
-    description: `Developed a mobile activity management app for an educational institution serving 500+ users including teachers, parents, and students (ranging from early childhood education to elementary school levels).
+    description: `Developing a mobile activity management app for an educational institution targeting ~500 users upon production rollout (based on client estimate), including teachers, parents, and students (ranging from early childhood education to elementary school levels).
 
 The application features JWT + RBAC authentication supporting 5 distinct user roles, with real-time push notifications via FCM for activity approvals, chats, and system updates. Worked closely with the backend developer to review PHP API endpoints and database structures, ensuring seamless compatibility with the mobile application logic. Delivered an internal demo build (APK) after completing thorough QA testing, with deployment scheduled to begin February 2026 and production release planned for July 2026.`,
     skills: ['React Native', 'Expo', 'FCM', 'JWT', 'RBAC', 'PHP API'],
     achievements: [
-      'Served 500+ active users with a secure and scalable authentication system',
+      'Implemented secure JWT + RBAC authentication system for 5 user roles',
       'Successfully implemented 5-role RBAC without any permission conflicts',
       'Delivered internal demo build within a tight timeline',
     ],

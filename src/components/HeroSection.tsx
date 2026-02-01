@@ -87,10 +87,10 @@ const HeroSection = () => {
           wordBreak: 'break-all',
         }}
       >
-        {Array(20).fill(0).map((_, row) => (
+        {Array(3).fill(0).map((_, row) => (
           <Box key={row} sx={{ display: 'flex', mb: 0.5 }}>
             {codeSnippets.map((code, i) => (
-              <Box key={i} sx={{ 
+              <Box key={i} sx={{
                 mr: { xs: 4, md: 8 },
                 opacity: 0.3 + (Math.random() * 0.7),
               }}>
@@ -247,7 +247,7 @@ const HeroSection = () => {
                     WebkitTextFillColor: 'transparent',
                   }}
                 >
-                  Junior Mobile Developer &amp; Fullstack Engineer
+                  Junior Fullstack &amp; Mobile Developer (React Native • .NET)
                 </Typography>
               </motion.div>
 
@@ -262,7 +262,9 @@ const HeroSection = () => {
                     maxWidth: '500px',
                   }}
                 >
-                  Passionate Junior Mobile Developer with expertise in React Native and Fullstack development, creating innovative solutions for complex problems.
+                  Hands-on experience building React Native client apps and enterprise dashboards at PT United Tractors Tbk.
+                  Currently developing production-ready education mobile app (targeting ~500 users upon rollout).
+                  Available for Junior Fullstack/Mobile roles in Jakarta or remote.
                 </Typography>
               </motion.div>
 
@@ -296,7 +298,7 @@ const HeroSection = () => {
                     }}
                   >
                     <GroupIcon sx={{ fontSize: 18 }} />
-                    Developed production app serving 500+ active users
+                    Currently developing production-ready education mobile app (targeting ~500 users upon rollout)
                   </Typography>
                 </Box>
               </motion.div>

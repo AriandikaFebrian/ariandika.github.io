@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Button } from '@mui/material';
 import { motion } from 'framer-motion';
 import EmailIcon from '@mui/icons-material/Email';

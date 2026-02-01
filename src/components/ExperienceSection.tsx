@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography, Chip } from '@mui/material';
 import { motion } from 'framer-motion';
 import { experienceData } from '../data/experience';

@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Container, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
@@ -150,7 +152,7 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-                  Fullstack & Mobile Developer specializing in React Native (Expo) and .NET/React integrations. Experienced in API integration, JWT + RBAC authentication, real-time FCM notifications, PostgreSQL, Power BI visualization, and Azure DevOps CI/CD.
+                  I&#39;m Ari Andika Febrian, a Fullstack &amp; Mobile Developer who loves turning ideas into functional, real-world apps. My main focus is on React Native (Expo) and .NET/React integrations — especially connecting frontend experiences with solid backend systems.
                 </Typography>
                 <Typography
                   variant="body1"
@@ -161,9 +163,18 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-                  Highlights:
-                  - Interned at PT United Tractors Tbk: Built end-to-end OTRS ticket monitoring system with real-time data automation and Power BI dashboards.
-                  - Developing React Native education management app for PAUD-SD client: Delivered internal demo APK; production planned mid-2026 (targeting ~500 users based on client estimate).
+                  During my internship at PT United Tractors Tbk, I built a complete OTRS ticket monitoring system that automated real-time data and visualized insights using Power BI dashboards. That project taught me how clean architecture and automation can really improve how teams work.
+                </Typography>
+                <Typography
+                  variant="body1"
+                  sx={{
+                    color: 'text.secondary',
+                    mb: 2.5,
+                    lineHeight: 1.8,
+                    fontSize: '1.05rem',
+                  }}
+                >
+                  Lately, I&#39;ve been developing a React Native education management app for a PAUD–SD client, focusing on API integration, JWT + RBAC authentication, and real-time notifications with FCM. The demo APK is already live internally, with a production rollout planned for mid-2026.
                 </Typography>
                 <Typography
                   variant="body1"
@@ -173,7 +184,8 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-                  Passionate about clean code, performance, and delivering impactful internal tools. Open to junior roles in startups or corporates.
+                  I&#39;m passionate about clean code, performance, and building tools that actually make work easier. I&#39;m currently open for junior roles in startups, corporates, or anywhere that values growth and collaboration.
+                  <br /><br />
                   "Dream it. Do it."
                 </Typography>
               </motion.div>

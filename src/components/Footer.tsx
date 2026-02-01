@@ -1,9 +1,16 @@
+'use client';
+
 import { Box, Container, Typography, Link as MuiLink } from '@mui/material';
+import { useState, useEffect } from 'react';
 import { profileData } from '../data/aboutData';
 
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   const navLinks = [
     { label: 'Home', id: 'hero' },

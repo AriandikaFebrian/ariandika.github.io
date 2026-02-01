@@ -152,7 +152,7 @@ const AboutSection = () => {
                     fontSize: '1.05rem',
                   }}
                 >
-                  I&#39;m Ari Andika Febrian, a Fullstack &amp; Mobile Developer who loves turning ideas into functional, real-world apps. My main focus is on React Native (Expo) and .NET/React integrations — especially connecting frontend experiences with solid backend systems.
+                  I&#39;m Ari Andika Febrian, a Fullstack &amp; Mobile Developer who loves turning ideas into functional, real-world apps. My main focus is on React Native (Expo) and .NET/React integrations especially connecting frontend experiences with solid backend systems.
                 </Typography>
                 <Typography
                   variant="body1"
